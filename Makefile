@@ -12,8 +12,9 @@ pikchr.js: pikchr.c
 pikchr.mjs: pikchr.c
 	$(EMCC) $(EMCCFLAGS) -sEXPORT_ES6=1 -o $@ $<
 
-pikchr.c:
-	wget -O pikchr.c https://raw.githubusercontent.com/drhsqlite/pikchr/master/pikchr.c
+# This
+# pikchr.c:
+# 	wget -O pikchr.c https://raw.githubusercontent.com/drhsqlite/pikchr/master/pikchr.c
 
 clean:
-	rm -f pikchr.js pikchr.mjs pikchr.c
+	rm -f pikchr.js pikchr.mjs # pikchr.c
