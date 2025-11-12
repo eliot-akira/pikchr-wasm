@@ -17,4 +17,5 @@ pikchr.mjs: pikchr.c
 # 	wget -O pikchr.c https://raw.githubusercontent.com/drhsqlite/pikchr/master/pikchr.c
 
 clean:
-	rm -f pikchr.js pikchr.mjs # pikchr.c
+	rm -f pikchr.js pikchr.mjs
+# pikchr.c
