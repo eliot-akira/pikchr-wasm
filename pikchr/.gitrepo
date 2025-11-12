@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/drhsqlite/pikchr
+	branch = master
+	commit = 2c46091ee5548d4fa3fedaea2fc8c0a05c5a89eb
+	parent = 72436435db639a650db9e068ea8bdd485a30d6d3
+	method = merge
+	cmdver = 0.4.6
